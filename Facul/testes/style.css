@@ -1,0 +1,93 @@
+body {
+    background: #f7f7f7;
+    /*
+    background-color: rgb(151, 151, 151);
+    background-image: url(http://a.espncdn.com/i/teamlogos/soccer/500/874.png);
+    background-position: top;
+    
+    background-color: green;
+    background-color: #008800;
+    background: #008800;
+    */
+}
+a {
+    text-decoration: line-through;
+    color: red;
+}
+.photo {
+    border: 1px solid #505050;
+    border-radius: 50%;
+}
+
+#tittle,
+.subtitle,
+.post_title {
+    color: #505050;
+}
+
+.post_title {
+    font-size: 16px;
+    font-style: italic;
+}
+
+.post {
+    background: #fff;
+    /* padding tipo 1    padding: 15px 10px 5px; */
+    padding-top: 15px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-left: 0;
+    /* nome  largura estilo  cor   
+    border-top: 4px dotted green;
+    border-right: 4px dashed pink;
+    border-bottom: 4px solid purple;
+    border-left: 4px dotted red;
+    */
+    /* nome largura estilo cor
+    border: 3px solid #505050;
+    /* separado */
+    border-width: 3px;
+    border-color: #505050;
+    border-style: solid;
+    /* somente 1 lado da borda */
+    border-top-width: 3px;
+    border-top-color: #505050;
+    border-top-style: solid;
+    border-radius: 2%;
+    /*
+    contorno das bordar
+    border-radius: 10px;
+    border-radius: 50%;
+    */
+    /* contorno das bordas */
+    /* nome      topo  right bottom left */
+    /* border-radius: 10% 0% 15% 22%;  */
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+.post_content {
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+.post_image {
+    margin-bottom: 15px;
+    width: 300px;
+    height: 300px;
+    
+}
+
+ul {
+}
+
+ol {
+    list-style-type: upper-roman;
+}
+
+.contacts_list li a {
+    list-style-type: none;
+    text-decoration: none;
+    color: brown;
+    margin: 20px;
+}

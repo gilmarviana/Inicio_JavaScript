@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício Inscrição 2</title>
+</head>
+<body>
+    <header><h4>Dados Pessoais</h4></header>
+    <form action="teste.txt">
+        <label for="txtNome" id="lblNome">Nome:</label>
+        <input type="text" id="txtNome"/>
+        <p></p>
+        <label for="txtIdade" id="lblIdade">Idade:</label>
+        <input type="number" id="txtIdade"/>
+        <h4>Dados Profissioais</h4>
+        <p>Escolaridade:<select id="selectEscolaridade" name="select">
+            <option id="escolaridadeEnsinoMedio" value="ensinoMedio"selected>Ensino Médio</option>
+            <option id="escolaridadeGraduacao" value="graduacao" >Graduação</option>
+            <option id="escolaridadePosGraduacao" value="posGraduacao">Pós Graduação</option>
+        </select></p> 
+        
+        <p>Area de Atuação:<input id="areaGerencia" type="radio" name="cargo" value="1" checked>Gerência
+        <input id="areaFinanceiro" type="radio" name="cargo" value="2">Financeiro
+        <input id="areaRecepcao" type="radio" name="cargo" value="3">Recepção</p>  
+        <input class="bottom" type="submit" value="Enviar"/>   
+    </form>
+</body>
+</html>

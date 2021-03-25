@@ -1,0 +1,48 @@
+body {
+    background-color: white;
+}
+
+.menu {
+    background-color: antiquewhite;
+}
+
+a {
+    text-decoration: line-through;
+    color: red;
+}
+.panel_login {
+    color: blue;
+    font-size: 16px;
+}
+
+.title {
+    font-style: italic;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+.photo {
+    border-radius: 50%;
+}
+
+.post_photo {
+    border-radius: 20%;
+}
+
+.post_image {
+    background-color: rgba(185, 178, 178, 0.219);
+}
+
+.bottom {
+    border-style: solid;
+    color: pink;
+    background-color: rgb(236, 236, 236);
+    border-radius: 30%;
+    border-color: blue;
+}
+
+.teste {
+    background-color: aqua;
+}

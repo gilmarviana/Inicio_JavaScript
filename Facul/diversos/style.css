@@ -1,0 +1,30 @@
+        /* Seletor por Tag, não coloar prefixo */
+        
+        ul li {
+            border: 2px dashed pink;
+            border-radius: 10px;
+        }
+        /* Seletor por classe, usar Prefixo */
+        
+        ol li {
+            color: blue;
+            background-color: white;
+            font-size: 60px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-style: italic;
+        }
+        /* Seletor por ID, Usar # */
+        
+        #txtEmail {
+            border-color: blue;
+            border-style: dashed;
+        }
+        
+        h1 {
+            style="color: blue;
+ background-color: yellow;
+            text-shadow: 5px 5px 5px black;
+            font-size: 60px;
+            "
+
+        }
