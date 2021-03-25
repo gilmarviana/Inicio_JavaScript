@@ -1,2 +1,0 @@
-# Inicio_JavaScript
-Introdução
